@@ -92,6 +92,12 @@ void AttendanceServer::stop() {
         Logger::getInstance().log(Logger::Level::ERROR, 
             "Error stopping server: " + std::string(e.what()));
         throw;
+
+
+        return 0; 
     }
+
+
 }
+
 
