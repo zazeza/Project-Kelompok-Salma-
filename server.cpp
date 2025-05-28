@@ -100,6 +100,8 @@ void AttendanceServer::stop() {
 
 // print all records 
 // trial and error 
+// comment azizah
+
     
 
 
